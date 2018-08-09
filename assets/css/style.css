@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,|Spicy+Rice');
+
+.header{
+    margin: 0;
+
+}
+.bg-color-call-out{
+    background-color: #a7dbf6;
+}
+.bg-color-notice-board{
+    background-color: #a7dbf6;
+}
+.ui-menu-color-page-1{
+background: repeating-radial-gradient(
+  circle,
+  purple,
+  purple 10px,
+  #4b026f 10px, 
+  #4b026f 20px
+);
+}
+.ui-menu-color-page-2{ 
+    background: repeating-radial-gradient(
+  circle,
+  purple,
+  purple 10px,
+  #4b026f 10px, 
+  #4b026f 20px
+);
+}  
+.ui-menu-color-page-3{
+    background: repeating-radial-gradient(
+  circle,
+  purple,
+  purple 10px,
+  #4b026f 10px, 
+  #4b026f 20px
+);
+}
+.ui-menu-color-page-4{
+    background: repeating-radial-gradient(
+  circle,
+  purple,
+  purple 10px,
+  #4b026f 10px, 
+  #4b026f 20px
+);
+}
+.ui-menu-color-page-5{
+    background: repeating-radial-gradient(
+  circle,
+  purple,
+  purple 10px,
+  #4b026f 10px, 
+  #4b026f 20px
+);
+}
+
+/*--------------------------------------------Paddings margings borders etc*/
+
+#nav {
+    margin: 0;
+    
+    
+}
+
+header {
+    margin: 0;
+}
+
+.call-out-image {
+    margin-top: 35px;
+    position: relative;
+}
+
+h1, h2, h3, h4, h5{
+    margin: 0;
+}
+
+#nav li{
+    padding: 0px;
+    
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.general-sub{
+    font-family: 'Spicy Rice', cursive;
+    font-weight: 400;
+    color: #a7dbf6;
+}
+
+/*--------------------------------------------Images Logo*/
+
+.heading{
+    margin: 0px;
+    background: url("..//images/monkees.jpg");
+    background-color: #a7dbf6;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: auto;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+
+
+.logo{
+    background: url("..//images/monkees-logo.png");
+    background-color: #a7dbf6;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.call-out-image{
+    background: url("..//images/dj.jpg");
+    background-color: black;
+    border-radius: 3px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 210px;
+        min-width: 210px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+/*--------------------------------------------Footer*/
+                                                                            
+footer{
+    background-color: black;
+    color: #fffeb3;
+    min-height: 120px;
+    margin:0;
+}
+
+.menuitem{
+    height: 120px;
+    text-align: center;
+    padding: 0;
+    font-family: 'Spicy Rice', cursive;
+}
+
+.menuitem a{
+    width: 100%;
+    text-decoration: none;
+    color: #f8e6c7;;
+    height: 120px;
+}
+
+.menuitem a i{
+    padding-top: 22px;
+    display:block;
+    color: #f8e6c7;;
+    font-size: 45px;
+}
+
+.menuitem span{
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.inline-block{
+    display: inline-block;
+}
+.row-table{
+    display: table;
+}
+
+#footer-details{
+    margin: 20px;
+        align-content: center;
+}
+
+.social-links{
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 7px;
+    text-align: center;
+    color: #342009;
+    background: #fffeb3;
+    align-content: center;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover{
+    background: #e44d02;
+} 
+
+.section-heading{
+    color: #101f48;
+}
+/*--------------------------------------------Hover*/
+
+.hvr-sweep-to-bottom:before{
+    background: rgba(0,0,0,0.15);
+    border-radius: 50%;
+    height: 120px;
+}
+
+
+/*-----------------------------------------Call Out*/
+
+.call-out-heading{
+    margin-bottom: 15px;
+    
+}
+
+/*-----------------------------------------Notice Board*/
+
+.section-heading {
+     font-family: 'Spicy Rice', cursive;
+     margin-top: 35px;
+}
+div p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.notice-board-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;                   
+}
+                               
+.notice-board-item .key,
+.notice-board-item .value{ 
+    padding-right: 8px;                           
+}                                                                            
+                                                                                                                            
+.notice-board-item .key p,        
+.notice-board-item .value p {                                                                                                                                                                                                                                                                                  
+    margin: 0;
+} 
+
+.notice-board-item .key {                                                                                                    
+    display: inline-block;
+    width: 30%;
+    margin-right: 21px;                             
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.notice-board-item .key p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700; 
+    color: #e44d02;
+                                                  
+}
+
+.notice-board-item .value p{
+    display: inline-block;
+    position: relative;
+    width: 60%;
+    font-family: 'Raleway', sans-serif;
+}
+
+@media(min-width: 992px){
+   .section-column{
+    padding:0 30px 30px;
+    float: none;
+    display: table-cell;
+} 
+}
+
